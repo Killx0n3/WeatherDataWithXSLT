@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>New South Wales</region>
+            <office>NSWRO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDN10031</identifier>
+        <issue-time-utc>2018-04-25T18:30:00Z</issue-time-utc>
+        <issue-time-local tz="EST">2018-04-26T04:30:00+10:00</issue-time-local>
+        <sent-time>2018-04-25T18:30:03Z</sent-time>
+        <expiry-time>2018-05-05T18:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="EST">2018-04-26T04:30:02+10:00</validity-bgn-time-local>
+        <validity-end-time-local tz="EST">2018-04-29T23:59:59+10:00</validity-end-time-local>
+        <next-routine-issue-time-utc>2018-04-26T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="EST">2018-04-26T16:30:00+10:00</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="NSW_FA001" description="New South Wales" type="region">
+            <forecast-period start-time-local="2018-04-26T04:30:02+10:00" end-time-local="2018-04-26T04:30:02+10:00" start-time-utc="2018-04-25T18:30:02Z" end-time-utc="2018-04-25T18:30:02Z">
+                <text type="synoptic_situation">
+                    <p>A low pressure trough off the New South Wales north coast is weakening as a high pressure system south of the Bight moves very slowly east extending a ridge along the coast. The high is expected to move over the southern Tasman by Wednesday maintaining the ridge to the north.</p>
+                </text>
+                <text type="warning_summary_footer">Details of warnings are available on the Bureau's website www.bom.gov.au, by telephone 1300-659-218* or through some TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2018-04-26T05:00:00+10:00" end-time-local="2018-04-27T00:00:00+10:00" start-time-utc="2018-04-25T19:00:00Z" end-time-utc="2018-04-26T14:00:00Z">
+                <text type="fire_danger">Very High: Northwestern fire area.</text>
+                <text type="forecast">Medium chance of showers along the northern half of the coast with the risk of thunderstorms. The chance of afternoon thunderstorms in the northern inland. Early fog in the east. Partly cloudy elsewhere. Daytime temperatures close to average. Winds south to southwesterly, freshening along the coast and about the central west slopes.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2018-04-27T00:00:00+10:00" end-time-local="2018-04-28T00:00:00+10:00" start-time-utc="2018-04-26T14:00:00Z" end-time-utc="2018-04-27T14:00:00Z">
+                <text type="forecast">A shower or two in the east, more likely about the north coast. The chance of a thunderstorm in the far northeast. Early frost patches about the southern ranges. Fine and mostly sunny in the west. Daytime temperatures below average, especially in the southeast. South to southeasterly winds, freshening about the northeast and along the coast.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2018-04-28T00:00:00+10:00" end-time-local="2018-04-29T00:00:00+10:00" start-time-utc="2018-04-27T14:00:00Z" end-time-utc="2018-04-28T14:00:00Z">
+                <text type="forecast">Showers in the east, more likely about the central and northern coastal fringe. Fine and mostly sunny elsewhere. Early frost patches about the southern ranges. Daytime temperatures below average in the east and about average elsewhere. South to southeasterly winds, freshening about the north coast.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2018-04-29T00:00:00+10:00" end-time-local="2018-04-30T00:00:00+10:00" start-time-utc="2018-04-28T14:00:00Z" end-time-utc="2018-04-29T14:00:00Z">
+                <text type="forecast">Showers in the east, more likely about the central and north coast. Fine and mostly sunny elsewhere. Early frost patches about the southern ranges. Daytime temperatures below average in the east, about average elsewhere. South to southeasterly winds.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>

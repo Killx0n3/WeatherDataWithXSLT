@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>New South Wales</region>
+            <office>NSWRO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDN11032</identifier>
+        <issue-time-utc>2018-04-25T23:51:29Z</issue-time-utc>
+        <issue-time-local tz="EST">2018-04-26T09:51:29+10:00</issue-time-local>
+        <sent-time>2018-04-25T23:51:29Z</sent-time>
+        <expiry-time>2018-04-26T23:51:29Z</expiry-time>
+        <validity-bgn-time-local tz="EST">2018-04-26T00:00:00+10:00</validity-bgn-time-local>
+        <validity-end-time-local tz="EST">2018-04-29T23:59:59+10:00</validity-end-time-local>
+        <next-routine-issue-time-utc>2018-04-26T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="EST">2018-04-26T16:30:00+10:00</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FAA</sub-service>
+        <product-type>F</product-type>
+        <phase>UPD</phase>
+    </amoc>
+    <forecast>
+        <area aac="NSW_FA001" description="New South Wales" type="region">
+            <forecast-period start-time-local="2018-04-26T09:51:28+10:00" end-time-local="2018-04-26T09:51:28+10:00" start-time-utc="2018-04-25T23:51:28Z" end-time-utc="2018-04-25T23:51:28Z">
+                <text type="warning_summary_footer">Details of warnings are available on the Bureau's website www.bom.gov.au, by telephone 1300-659-218* or through some TV and radio broadcasts.</text>
+                <text type="synoptic_situation">
+                    <p>A low pressure trough off the New South Wales north coast is weakening as a high pressure system south of the Bight moves very slowly east extending a ridge along the coast. The high is expected to move over the southern Tasman by Wednesday maintaining the ridge to the north.</p>
+                </text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+        </area>
+        <area aac="NSW_PW010" description="Snowy Mountains" type="public-district" parent-aac="NSW_FA001">
+            <forecast-period index="0" start-time-local="2018-04-26T00:00:00+10:00" end-time-local="2018-04-27T00:00:00+10:00" start-time-utc="2018-04-25T14:00:00Z" end-time-utc="2018-04-26T14:00:00Z">
+                <element type="snow_elevation_1">1000</element>
+                <element type="probability_of_snow_at_elevation_1">0%</element>
+                <element type="snow_elevation_2">1400</element>
+                <element type="probability_of_snow_at_elevation_2">0%</element>
+                <element type="snow_elevation_3">1800</element>
+                <element type="probability_of_snow_at_elevation_3">0%</element>
+                <text type="forecast">Mostly sunny. Winds south to southwesterly 15 to 25 km/h becoming light in the evening then becoming south to southwesterly 15 to 20 km/h in the late evening.</text>
+                <text type="uv_alert">Sun protection 10:00am to 1:50pm, UV Index predicted to reach 4 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2018-04-27T00:00:00+10:00" end-time-local="2018-04-28T00:00:00+10:00" start-time-utc="2018-04-26T14:00:00Z" end-time-utc="2018-04-27T14:00:00Z">
+                <element type="snow_elevation_1">1000</element>
+                <element type="probability_of_snow_at_elevation_1">0%</element>
+                <element type="snow_elevation_2">1400</element>
+                <element type="probability_of_snow_at_elevation_2">0%</element>
+                <element type="snow_elevation_3">1800</element>
+                <element type="probability_of_snow_at_elevation_3">Below 5%</element>
+                <text type="forecast">Cloudy. Slight (20%) chance of a shower near the Victorian border. Winds south to southwesterly 15 to 20 km/h tending south to southeasterly in the middle of the day then becoming light in the late afternoon.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2018-04-28T00:00:00+10:00" end-time-local="2018-04-29T00:00:00+10:00" start-time-utc="2018-04-27T14:00:00Z" end-time-utc="2018-04-28T14:00:00Z">
+                <element type="snow_elevation_1">1000</element>
+                <element type="probability_of_snow_at_elevation_1">0%</element>
+                <element type="snow_elevation_2">1400</element>
+                <element type="probability_of_snow_at_elevation_2">0%</element>
+                <element type="snow_elevation_3">1800</element>
+                <element type="probability_of_snow_at_elevation_3">0%</element>
+                <text type="forecast">Partly cloudy. The chance of patchy early morning frost. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2018-04-29T00:00:00+10:00" end-time-local="2018-04-30T00:00:00+10:00" start-time-utc="2018-04-28T14:00:00Z" end-time-utc="2018-04-29T14:00:00Z">
+                <element type="snow_elevation_1">1000</element>
+                <element type="probability_of_snow_at_elevation_1">0%</element>
+                <element type="snow_elevation_2">1400</element>
+                <element type="probability_of_snow_at_elevation_2">0%</element>
+                <element type="snow_elevation_3">1800</element>
+                <element type="probability_of_snow_at_elevation_3">0%</element>
+                <text type="forecast">Partly cloudy. Slight (20%) chance of a shower in the east. Light winds.</text>
+            </forecast-period>
+        </area>
+        <area aac="NSW_PT115" description="Perisher Valley" type="location" parent-aac="NSW_PW010">
+            <forecast-period index="0" start-time-local="2018-04-26T05:00:00+10:00" end-time-local="2018-04-27T00:00:00+10:00" start-time-utc="2018-04-25T19:00:00Z" end-time-utc="2018-04-26T14:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">11</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2018-04-27T00:00:00+10:00" end-time-local="2018-04-28T00:00:00+10:00" start-time-utc="2018-04-26T14:00:00Z" end-time-utc="2018-04-27T14:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">8</element>
+                <element type="air_temperature_minimum" units="Celsius">-3</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2018-04-28T00:00:00+10:00" end-time-local="2018-04-29T00:00:00+10:00" start-time-utc="2018-04-27T14:00:00Z" end-time-utc="2018-04-28T14:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">10</element>
+                <element type="air_temperature_minimum" units="Celsius">-2</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2018-04-29T00:00:00+10:00" end-time-local="2018-04-30T00:00:00+10:00" start-time-utc="2018-04-28T14:00:00Z" end-time-utc="2018-04-29T14:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">10</element>
+                <element type="air_temperature_minimum" units="Celsius">-3</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="NSW_PT036" description="Cooma" type="location" parent-aac="NSW_PW010">
+            <forecast-period index="0" start-time-local="2018-04-26T05:00:00+10:00" end-time-local="2018-04-27T00:00:00+10:00" start-time-utc="2018-04-25T19:00:00Z" end-time-utc="2018-04-26T14:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">21</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2018-04-27T00:00:00+10:00" end-time-local="2018-04-28T00:00:00+10:00" start-time-utc="2018-04-26T14:00:00Z" end-time-utc="2018-04-27T14:00:00Z">
+                <element type="forecast_icon_code">4</element>
+                <element type="air_temperature_maximum" units="Celsius">16</element>
+                <element type="air_temperature_minimum" units="Celsius">1</element>
+                <text type="precis">Cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2018-04-28T00:00:00+10:00" end-time-local="2018-04-29T00:00:00+10:00" start-time-utc="2018-04-27T14:00:00Z" end-time-utc="2018-04-28T14:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">18</element>
+                <element type="air_temperature_minimum" units="Celsius">1</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2018-04-29T00:00:00+10:00" end-time-local="2018-04-30T00:00:00+10:00" start-time-utc="2018-04-28T14:00:00Z" end-time-utc="2018-04-29T14:00:00Z">
+                <element type="forecast_icon_code">4</element>
+                <element type="air_temperature_maximum" units="Celsius">18</element>
+                <element type="air_temperature_minimum" units="Celsius">1</element>
+                <text type="precis">Cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="NSW_PT024" description="Cabramurra" type="location" parent-aac="NSW_PW010">
+            <forecast-period index="0" start-time-local="2018-04-26T05:00:00+10:00" end-time-local="2018-04-27T00:00:00+10:00" start-time-utc="2018-04-25T19:00:00Z" end-time-utc="2018-04-26T14:00:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_maximum" units="Celsius">14</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2018-04-27T00:00:00+10:00" end-time-local="2018-04-28T00:00:00+10:00" start-time-utc="2018-04-26T14:00:00Z" end-time-utc="2018-04-27T14:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">11</element>
+                <element type="air_temperature_minimum" units="Celsius">4</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2018-04-28T00:00:00+10:00" end-time-local="2018-04-29T00:00:00+10:00" start-time-utc="2018-04-27T14:00:00Z" end-time-utc="2018-04-28T14:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">12</element>
+                <element type="air_temperature_minimum" units="Celsius">4</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2018-04-29T00:00:00+10:00" end-time-local="2018-04-30T00:00:00+10:00" start-time-utc="2018-04-28T14:00:00Z" end-time-utc="2018-04-29T14:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">13</element>
+                <element type="air_temperature_minimum" units="Celsius">4</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="NSW_PT044" description="Thredbo Top Station" type="location" parent-aac="NSW_PW010">
+            <forecast-period index="0" start-time-local="2018-04-26T05:00:00+10:00" end-time-local="2018-04-27T00:00:00+10:00" start-time-utc="2018-04-25T19:00:00Z" end-time-utc="2018-04-26T14:00:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_maximum" units="Celsius">10</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2018-04-27T00:00:00+10:00" end-time-local="2018-04-28T00:00:00+10:00" start-time-utc="2018-04-26T14:00:00Z" end-time-utc="2018-04-27T14:00:00Z">
+                <element type="forecast_icon_code">10</element>
+                <element type="air_temperature_maximum" units="Celsius">6</element>
+                <element type="air_temperature_minimum" units="Celsius">-1</element>
+                <text type="precis">Early fog.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2018-04-28T00:00:00+10:00" end-time-local="2018-04-29T00:00:00+10:00" start-time-utc="2018-04-27T14:00:00Z" end-time-utc="2018-04-28T14:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">8</element>
+                <element type="air_temperature_minimum" units="Celsius">0</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2018-04-29T00:00:00+10:00" end-time-local="2018-04-30T00:00:00+10:00" start-time-utc="2018-04-28T14:00:00Z" end-time-utc="2018-04-29T14:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">8</element>
+                <element type="air_temperature_minimum" units="Celsius">-1</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="NSW_PT217" description="Jindabyne" type="location" parent-aac="NSW_PW010">
+            <forecast-period index="0" start-time-local="2018-04-26T05:00:00+10:00" end-time-local="2018-04-27T00:00:00+10:00" start-time-utc="2018-04-25T19:00:00Z" end-time-utc="2018-04-26T14:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">17</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2018-04-27T00:00:00+10:00" end-time-local="2018-04-28T00:00:00+10:00" start-time-utc="2018-04-26T14:00:00Z" end-time-utc="2018-04-27T14:00:00Z">
+                <element type="forecast_icon_code">4</element>
+                <element type="air_temperature_maximum" units="Celsius">12</element>
+                <element type="air_temperature_minimum" units="Celsius">3</element>
+                <text type="precis">Cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2018-04-28T00:00:00+10:00" end-time-local="2018-04-29T00:00:00+10:00" start-time-utc="2018-04-27T14:00:00Z" end-time-utc="2018-04-28T14:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">15</element>
+                <element type="air_temperature_minimum" units="Celsius">4</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2018-04-29T00:00:00+10:00" end-time-local="2018-04-30T00:00:00+10:00" start-time-utc="2018-04-28T14:00:00Z" end-time-utc="2018-04-29T14:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">15</element>
+                <element type="air_temperature_minimum" units="Celsius">3</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>

@@ -2,7 +2,7 @@
 ### Flavour of XML, XSL, XSLT (Saxon-HE), SPARQL and Python
 
 ## Project Details
-At first I was using an XSL stylesheet that extracts weather forecast information from different XML documents and transforms this information into an XHTML document with the help of the XSLT processor Saxon. The resulting XHTML document can be displayable in a Web browser with the help of a cascading sytlesheet (CSS) file.
+At first I am using an XSL stylesheet that extracts weather forecast information from different XML documents and transforms this information into an XHTML document with the help of the XSLT processor Saxon. The resulting XHTML document can be displayable in a Web browser with the help of a cascading sytlesheet (CSS) file.
 
 Then, we have designed an RDFa vocabulary that can be used to augment the information in the XSL stylesheet so that the generated XHTML document can finally be queried via SPARQL from a Python script that uses Python's rdflib library. Details of the RDFa vocabulary is provided in separate file.
 
